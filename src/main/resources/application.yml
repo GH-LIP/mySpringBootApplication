@@ -1,0 +1,17 @@
+server:
+  host: localhost
+  port: 8080
+  username: lip
+  password: a438521i..
+Person:
+  name: lip
+  age: 27
+  boss: true
+  birthday: 2021/07/07
+  hobbies:
+    - basketball
+    - pingpong
+  map: {k1: v1, k2: v2}
+  dog:
+    name: pp
+    age: 3
