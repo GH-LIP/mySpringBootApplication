@@ -1,4 +1,4 @@
-package com.test.thread;
+package com.test.thread.threadSafe;
 
 public class WaitAndNotify {
     //轮询标志位

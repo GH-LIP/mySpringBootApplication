@@ -1,4 +1,4 @@
-package com.test.thread;
+package com.test.thread.threadSafe;
 
 // 快速实现 死锁代码， 并利用  jps(类似于linux中的ps -ef命令)、jstack(jvm自带的堆栈跟踪工具) 验证是否死锁
 
@@ -13,7 +13,7 @@ package com.test.thread;
  *          13236 sun.tools.jps.Jps
  *          4500 org.jetbrains.jps.cmdline.Launcher
  *          7428
- *          3544 com.test.thread.DeadLockTest
+ *          3544 com.test.thread.threadSafe.DeadLockTest
  * 4. 可以看到最后一行有DeadLockTest这个类，这就是我们写的死锁测试代码，找到前面的编号3544
  * 5. 利用jvm自带的堆栈跟踪工具，运行命令 jstack 3544 ，查看死锁信息：....Found 1 deadlock.
  * 这就是验证死锁的过程，整理到语雀中

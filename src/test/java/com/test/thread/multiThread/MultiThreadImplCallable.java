@@ -7,6 +7,11 @@ import java.util.concurrent.FutureTask;
 public class MultiThreadImplCallable implements Callable<String> {
     @Override
     public String call() {
+        try {
+            Thread.sleep(1000);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
         return "这就是线程执行任务的返回结果";
     }
 

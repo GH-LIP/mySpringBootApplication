@@ -1,4 +1,4 @@
-package com.test.thread;
+package com.test.thread.threadSafe;
 
 public class ProducerAndConsumer {
     //商品库存
