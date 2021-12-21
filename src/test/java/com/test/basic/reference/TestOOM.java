@@ -1,4 +1,4 @@
-package com.test.reference;
+package com.test.basic.reference;
 
 
 import java.lang.ref.SoftReference;

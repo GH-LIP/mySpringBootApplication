@@ -1,4 +1,4 @@
-package com.test.classType;
+package com.test.basic.classType;
 
 import com.layman.basic.SpringIOC;
 import org.junit.Test;

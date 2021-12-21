@@ -1,6 +1,6 @@
-package com.test.dynamicProxy.cglibProxy;
+package com.test.designPattern.dynamicProxy.cglibProxy;
 
-import com.test.dynamicProxy.jdkProxy.RealSubject;
+import com.test.designPattern.dynamicProxy.jdkProxy.RealSubject;
 import org.junit.Test;
 import org.springframework.cglib.proxy.Enhancer;
 import org.springframework.cglib.proxy.MethodInterceptor;

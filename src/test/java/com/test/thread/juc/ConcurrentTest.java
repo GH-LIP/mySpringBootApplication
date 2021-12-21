@@ -25,7 +25,7 @@ public class ConcurrentTest {
 
         Set<String> set = new HashSet<>();
         Set<String> set1 = new CopyOnWriteArraySet<>();
-        for (int i = 0; i < 300; i++) {
+        for (int i = 0; i < 30; i++) {
             new Thread(()->{
                 set1.add(UUID.randomUUID().toString().toUpperCase(Locale.CHINA));
                 // 为什么加上输出这一句会出错：并发修改异常 java.util.ConcurrentModificationException
@@ -35,7 +35,7 @@ public class ConcurrentTest {
 
         Map<String, String> map = new HashMap<>();
         Map<String, String> map1 = new ConcurrentHashMap<>();
-        for (int i = 0; i < 300; i++) {
+        for (int i = 0; i < 30; i++) {
             String key = String.valueOf(i);
             new Thread(()->{
                 map1.put(key, UUID.randomUUID().toString().toUpperCase(Locale.CHINA));

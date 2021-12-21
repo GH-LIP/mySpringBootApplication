@@ -2,10 +2,7 @@ package com.test.thread.threadSafe;
 
 import org.junit.Test;
 
-import java.util.List;
-import java.util.Map;
-import java.util.Set;
-import java.util.UUID;
+import java.util.*;
 import java.util.concurrent.*;
 
 public class ContainerNotSafeDemo {

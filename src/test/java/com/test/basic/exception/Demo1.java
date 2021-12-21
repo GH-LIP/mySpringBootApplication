@@ -1,4 +1,4 @@
-package com.test.exception;
+package com.test.basic.exception;
 
 import org.junit.Test;
 

@@ -47,7 +47,7 @@ public class LockTest {
             } catch (Exception e) {
 
             } finally {
-                // 最后必须手动释放所资源，lock必须手动解锁
+                // 最后必须手动释放锁资源，lock必须手动解锁
                 lock.unlock();
             }
         }
