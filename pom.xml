@@ -7,7 +7,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.6.RELEASE</version>  <!-- 该版本不能太高 -->
+        <version>2.6.2</version>
     </parent>
 
     <groupId>com.lip</groupId>
@@ -97,7 +97,11 @@
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
-
+        <!-- Netty -->
+        <dependency>
+            <groupId>org.kgusarov</groupId>
+            <artifactId>spring-boot-netty</artifactId>
+        </dependency>
     </dependencies>
 
 

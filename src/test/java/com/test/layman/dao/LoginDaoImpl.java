@@ -1,4 +1,4 @@
-package com.layman.dao;
+package com.test.layman.dao;
 
 /**
  * @auther: LIP

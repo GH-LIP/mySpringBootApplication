@@ -1,4 +1,4 @@
-package com.lip;
+package com.test.layman.entity;
 
 public class Dog {
 

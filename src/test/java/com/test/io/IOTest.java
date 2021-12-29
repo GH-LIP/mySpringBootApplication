@@ -19,7 +19,7 @@ import java.util.concurrent.CopyOnWriteArrayList;
  * @create: 2021-03-21 8:42
  * @desc:
  */
-public class IoTest {
+public class IOTest {
 
     private static String defualtTarget = "D:\\documents\\工作\\品荟\\数据库\\新路径.sql";
 

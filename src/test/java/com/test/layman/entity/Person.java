@@ -1,4 +1,4 @@
-package com.lip;
+package com.test.layman.entity;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;

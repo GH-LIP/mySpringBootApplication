@@ -1,6 +1,6 @@
 package com.test.basic.classType;
 
-import com.layman.basic.SpringIOC;
+import com.test.basic.SpringIOC;
 import org.junit.Test;
 
 import java.lang.reflect.Field;
@@ -21,7 +21,7 @@ public class Junit {
          * 1. Class clazz1 = Class.forName(全限定类名);
          * 2. Class clazz2 = Person.class;
          */
-        Class clazz1 = Class.forName("com.layman.basic.SpringIOC");
+        Class clazz1 = Class.forName("com.test.basic.SpringIOC");
         Class clazz2 = SpringIOC.class;
         Class clazz3 = new SpringIOC().getClass();
 

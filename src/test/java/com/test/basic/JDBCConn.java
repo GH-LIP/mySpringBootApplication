@@ -1,4 +1,4 @@
-package com.layman.basic;
+package com.test.basic;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

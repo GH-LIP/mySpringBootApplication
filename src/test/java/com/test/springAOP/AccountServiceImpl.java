@@ -1,4 +1,4 @@
-package com.springAOP;
+package com.test.springAOP;
 
 import org.springframework.stereotype.Service;
 

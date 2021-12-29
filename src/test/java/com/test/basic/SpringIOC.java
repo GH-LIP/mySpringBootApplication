@@ -1,4 +1,4 @@
-package com.layman.basic;
+package com.test.basic;
 
 import java.util.List;
 import java.util.Map;
