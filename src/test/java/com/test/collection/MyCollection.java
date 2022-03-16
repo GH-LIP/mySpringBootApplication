@@ -1,31 +1,35 @@
 package com.test.collection;
 
+import com.sun.jmx.remote.internal.ArrayQueue;
+
 import java.util.*;
+import java.util.concurrent.*;
 
 public class MyCollection {
     public static void main(String[] args) {
-        List<String> list = new ArrayList<>();
-        list.add("x");
-        list.add("y");
-        list.add("z");
-        list.add("a");
-        list.add("b");
+        Collection arrayList = new ArrayList();
+        Collection linkedList = new LinkedList();
+        Collection vector = new Vector();
+        Collection copyOnWriteArrayList = new CopyOnWriteArrayList();
 
-        list.sort(new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                return o1.compareTo(o2);
-            }
-        });
+        Collection hashSet = new HashSet();
+        Collection linkedHashSet = new LinkedHashSet<>();
+        Collection treeSet = new TreeSet();
+        Collection copyOnWriteArraySet = new CopyOnWriteArraySet();
 
-        Iterator<String> iterator = list.iterator();
-        String ele;
-        while (iterator.hasNext()) {
-            ele = iterator.next();
-            System.out.println("元素：" + ele);
-        }
+        Collection arrayQueue = new ArrayQueue(10);
+        Collection arrayDueue = new ArrayDeque(10);
+        Collection arrayBlockingQueue = new ArrayBlockingQueue(10);
+        Collection linkedBlockingQueue = new LinkedBlockingQueue(10);
+        Collection linkedBlockingDuque = new LinkedBlockingDeque(10);
 
-        Collections.unmodifiableCollection(list);
+
+
+        Map<String, Object> hashMap = new HashMap<>();
+        Map<String, Object> linkedHashMap = new LinkedHashMap<>();
+        Map<String, Object> treeMap = new TreeMap<>();
+        Map<String, Object> hashtable = new Hashtable<>();
+        Map<String, Object> map = new ConcurrentHashMap<>();
     }
 
 }

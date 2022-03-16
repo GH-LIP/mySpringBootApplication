@@ -1,4 +1,4 @@
-package com.test.basic.queue;
+package com.test.collection;
 
 import java.util.LinkedList;
 import java.util.Queue;

@@ -1,10 +1,8 @@
 package com.jedis;
 
-import com.sun.xml.internal.ws.util.StringUtils;
 import redis.clients.jedis.Jedis;
 
 import java.util.Random;
-import java.util.Set;
 
 public class VerificationCodeTest {
     private static String verificationCode_phone = "verificationCode_";

@@ -1,14 +1,35 @@
 package com.test;
 
-import java.net.URLDecoder;
-import java.nio.charset.StandardCharsets;
+import com.sun.jmx.remote.internal.ArrayQueue;
+
+import java.util.*;
+import java.util.concurrent.*;
 
 public class Test {
-
     public static void main(String[] args) throws Exception {
-        String str = "http://cnas-qa.oss-cn-shenzhen.aliyuncs.com/cnas/reports/889200733826580480_02030123012_%E6%98%8E%E5%9F%BA%E5%8C%BB%E9%99%A2/KEDU20210923009%20%E5%91%BC%E5%90%B8%E6%9C%BA.pdf";
-        String subStr = str.substring(str.lastIndexOf("/") + 1);
-        str = URLDecoder.decode(subStr, StandardCharsets.UTF_8.name());
-        System.out.println(str);
+        Collection arrayList = new ArrayList();
+        Collection linkedList = new LinkedList();
+        Collection vector = new Vector();
+        Collection copyOnWriteArrayList = new CopyOnWriteArrayList();
+
+        Collection hashSet = new HashSet();
+        Collection linkedHashSet = new LinkedHashSet<>();
+        Collection treeSet = new TreeSet();
+        Collection copyOnWriteArraySet = new CopyOnWriteArraySet();
+
+        Collection arrayQueue = new ArrayQueue(10);
+        Collection arrayDueue = new ArrayDeque(10);
+        Collection arrayBlockingQueue = new ArrayBlockingQueue(10);
+        Collection linkedBlockingQueue = new LinkedBlockingQueue(10);
+        Collection linkedBlockingDuque = new LinkedBlockingDeque(10);
+
+        
+
+        Map<String, Object> hashMap = new HashMap<>();
+        Map<String, Object> linkedHashMap = new LinkedHashMap<>();
+        Map<String, Object> treeMap = new TreeMap<>();
+        Map<String, Object> hashtable = new Hashtable<>();
+        Map<String, Object> map = new ConcurrentHashMap<>();
+
     }
 }
