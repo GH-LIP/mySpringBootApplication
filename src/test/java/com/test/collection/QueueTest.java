@@ -15,7 +15,7 @@ public class QueueTest {
             System.out.println(i);
         }
 
-
+        // FIFO
         Queue arrayBlockingQueue = new ArrayBlockingQueue(10);
         arrayBlockingQueue.add("IN");
         arrayBlockingQueue.add("THE");
