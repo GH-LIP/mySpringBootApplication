@@ -1,4 +1,4 @@
-package com.test.leetcode.multiThread;
+package com.leetcode.multiThread;
 
 public class ZeroEvenOdd {
     public static void main(String[] args) {

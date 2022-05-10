@@ -1,7 +1,5 @@
 package com.test;
 
-import com.sun.jmx.remote.internal.ArrayQueue;
-
 import java.util.*;
 import java.util.concurrent.*;
 
@@ -17,7 +15,7 @@ public class Test {
         Collection treeSet = new TreeSet();
         Collection copyOnWriteArraySet = new CopyOnWriteArraySet();
 
-        Collection arrayQueue = new ArrayQueue(10);
+//        Collection arrayQueue = new ArrayQueue(10);
         Collection arrayDueue = new ArrayDeque(10);
         Collection arrayBlockingQueue = new ArrayBlockingQueue(10);
         Collection linkedBlockingQueue = new LinkedBlockingQueue(10);
